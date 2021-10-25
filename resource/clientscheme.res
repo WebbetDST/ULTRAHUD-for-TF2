@@ -3028,13 +3028,13 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	}
+	
 
-	///////////// These are the custom fonts in the hud lol ////////////
+		///////////// These are the custom fonts in the hud lol ////////////
 	
 	
 
-	ULTRAHUD_FONT12
+		"ULTRAHUD_FONT12"
 			{
 				"1"
 				{
@@ -3044,7 +3044,7 @@ Scheme
 				}
 			}
 
-		ULTRAHUD_FONT16
+		"ULTRAHUD_FONT16"
 			{
 				"1"
 				{
@@ -3053,7 +3053,8 @@ Scheme
 					"antialias" "1"
 				}
 			}
-		ULTRAHUD_FONT24
+			
+		"ULTRAHUD_FONT24"
 			{
 				"1"
 				{
@@ -3062,7 +3063,8 @@ Scheme
 					"antialias" "1"
 				}
 			}
-		ULTRAHUD_FONT32
+			
+		"ULTRAHUD_FONT32"
 			{
 				"1"
 				{
@@ -3071,7 +3073,8 @@ Scheme
 					"antialias" "1"
 				}
 			}
-		ULTRAHUD_FONT36
+			
+		"ULTRAHUD_FONT36"
 			{
 				"1"
 				{
@@ -3080,7 +3083,8 @@ Scheme
 					"antialias" "1"
 				}
 			}
-		ULTRAHUD_FONT42
+			
+		"ULTRAHUD_FONT42"
 			{
 				"1"
 				{
@@ -3089,7 +3093,8 @@ Scheme
 					"antialias" "1"
 				}
 			}	
-		ULTRAHUD_FONT48
+			
+		"ULTRAHUD_FONT48"
 			{
 				"1"
 				{
@@ -3097,7 +3102,8 @@ Scheme
 					"tall"		"48"
 					"antialias" "1"
 				}
-			}		
+			}	
+	}		
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5907,9 +5913,10 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		
 		"8"
 		{
-			"font" "resource/fonts/VCR_OSD_MONO_1"
+			"font" "resource/fonts/VCR_OSD_MONO_1.001.ttf"
 			"name" "VCR OSD Mono"
 		
 		}
