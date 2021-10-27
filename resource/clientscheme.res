@@ -62,7 +62,7 @@ Scheme
 		
 		"HUDBlueTeam"		"104 124 155 127"
 		"HUDRedTeam"		"180 92 77 127"
-		"HUDSpectator"		"124 124 124 127"
+		"HUDSpectator"		"124 124 124 0"
 		"HUDBlueTeamSolid"	"104 124 155 255"
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
@@ -1028,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"ULTRAHUD_FONT24"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"

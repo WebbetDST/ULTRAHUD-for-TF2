@@ -30,7 +30,7 @@
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -44,8 +44,8 @@
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -66,7 +66,7 @@
 		"tall"			"55"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -93,18 +93,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
+		"xpos"			"120"
 		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
+		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
-		"zpos"			"6"
+		"zpos"			"20"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%MaxHealth%"
+		"labelText" 	"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
+		"font"			"ULTRAHUD_FONT16"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusBleedImage"
